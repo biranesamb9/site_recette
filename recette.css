@@ -1,0 +1,124 @@
+* {
+  overflow: visible;
+}
+body {
+  background-color: #8ba1bb;
+  font-family: Arial;
+}
+p.categorie {
+  background-color: black;
+  color: #ffffff;
+  display: inline-block;
+
+  margin-top: -20px;
+  padding: 8px 18px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.centre {
+  text-align: center;
+  width: 100%;
+}
+div.contenu {
+  background-color: #ffffff;
+  margin: 0px 10% 50px 10%;
+  padding: 0px 30px 30px 30px;
+  min-width: 350px;
+  box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+  overflow: visible;
+}
+h1 {
+  text-align: center;
+}
+p.description {
+  text-align: center;
+  max-width: 400px;
+  display: inline-block;
+}
+
+div.categorie {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+div.ligne {
+  background-color: black;
+  width: 100px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.structure {
+  position: relative;
+}
+.table {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: #6c829dc0;
+  height: 80px;
+}
+img.centre {
+  display: block;
+  max-height: 400px;
+  object-fit: cover;
+  min-height: 200px;
+  background-color: lightgray;
+}
+div.colonne {
+  width: 45%;
+}
+.colonne h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  border-bottom: 10px solid #6c829d;
+  padding-bottom: 5px;
+}
+div.colonne1 {
+  display: inline-block;
+  margin-right: 10%;
+}
+div.colonne2 {
+  float: right;
+}
+.ingredients p {
+  border: 1px solid lightgray;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+table.preparation p.numero {
+  background-color: #6c829d;
+  color: white;
+  width: 25px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 4px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-top: 0;
+}
+table td {
+  vertical-align: top;
+}
+table.preparation p.preparation_etape {
+  margin-top: 0;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+table.preparation tr {
+  height: 40px;
+}
+div.over {
+  overflow: auto;
+}
+div.structure td {
+  text-align: center;
+  padding-top: 10px;
+}
