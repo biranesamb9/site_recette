@@ -22,9 +22,9 @@ p.categorie {
 }
 div.contenu {
   background-color: #ffffff;
-  margin: 0px 10% 50px 10%;
-  padding: 0px 30px 30px 30px;
-  min-width: 350px;
+  margin: 40px 8px 40px 8px;
+  padding: 0px 8px 20px 8px;
+  /* min-width: 350px;*/
   box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
   overflow: visible;
 }
@@ -67,7 +67,7 @@ img.centre {
   background-color: lightgray;
 }
 div.colonne {
-  width: 45%;
+  width: 100%;
 }
 .colonne h2 {
   text-align: center;
@@ -78,7 +78,6 @@ div.colonne {
 }
 div.colonne1 {
   display: inline-block;
-  margin-right: 10%;
 }
 div.colonne2 {
   float: right;
@@ -121,4 +120,41 @@ div.over {
 div.structure td {
   text-align: center;
   padding-top: 10px;
+}
+
+/* Style pour ordinateur */
+@media only screen and (min-width: 768px) {
+  div.contenu {
+    min-width: 350px;
+    margin: 0px 10% 50px 10%;
+    padding: 0px 30px 30px 30px;
+  }
+  div.structure td {
+    text-align: center;
+    padding-top: 10px;
+  }
+  div.colonne {
+    width: 45%;
+  }
+  .colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    border-bottom: 10px solid #6c829d;
+    padding-bottom: 5px;
+  }
+  div.colonne1 {
+    display: inline-block;
+    margin-right: 10%;
+  }
+  div.colonne2 {
+    float: right;
+  }
+}
+@media only screen and (min-width: 768px) {
+  div.contenu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 645px;
+  }
 }
